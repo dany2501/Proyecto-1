@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_home"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true">
+        <ImageView
+            android:id="@+id/sun"
+            android:src="@drawable/ic_sun_102839"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp">
+            <TextView
+                android:textSize="60dp"
+                android:fontFamily="sans-serif-black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mi jardín"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="30dp"
+            android:padding="20dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/create"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registrar Plantas"
+                />
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:id="@+id/show"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Consultar plantas"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+            <ImageView
+                android:id="@+id/bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

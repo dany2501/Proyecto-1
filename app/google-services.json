@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "439835202545",
+    "project_id": "escomprojects",
+    "storage_bucket": "escomprojects.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:439835202545:android:06f6b109bebc6098b92a50",
+        "android_client_info": {
+          "package_name": "mx.ipn.escom.plantas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "439835202545-9i8hr2asbo7qq5b866fs83630a76e7gk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mx.ipn.escom.plantas",
+            "certificate_hash": "44ca46bcdfe1cc26d245a2a55401bc7d61e8a5e4"
+          }
+        },
+        {
+          "client_id": "439835202545-9dbbsqtdupsoqa1kc2ht2k4marj146q1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATLp_8vmzvkFDsew3Ap9uga7ZR-DYQBPY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "439835202545-9dbbsqtdupsoqa1kc2ht2k4marj146q1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerItems">
+        <item>Maceta</item>
+        <item>Jardinera</item>
+    </string-array>
+</resources>
